@@ -1,0 +1,29 @@
+#logo{
+	width: 150px;
+}
+
+
+
+.btn-buy{
+	background-color : #984e43 !important;
+	color: white !important;
+}
+
+.btn-buy:hover{
+	background-color : transparent !important;
+	color: #984e43 !important;
+	border-color: #984e43 !important;
+	transition: 0.5s;	
+}
+
+#product{
+	width: 100%;
+}
+
+.text-inti{
+	color: #984e43;
+}
+
+.card-img{
+	opacity: 0.2;
+}

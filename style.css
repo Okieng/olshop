@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+body{
+	font-family: roboto;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #f67280 !important;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2rem;
+ 
+}
+
+.jumbotron{
+	border-radius: 0px !important;
+}
+
+.navbar{
+	background-color: #355c7d !important;
+	padding-bottom: 10px;
+}
+
+.nav-link{
+	color: #fff !important;
+	margin-right: 5px;
+	margin-top:5px;
+}
+
+.nav-link:hover{
+	color: #f67280 !important;
+	transition: 0.5s;
+}
+
+.btn{
+	border-radius:5px !important;
+}
+
+.btn-beli{
+	background-color: #f67280;
+	color: #F0F0F0;
+}
+
+.btn-beli:hover{
+	background-color: transparent;
+	color: #F38181;
+	border-color: #F38181;
+	transition: 0.5s;
+}
+
+img{
+	border-radius: 10px;
+}
+
+.btn-detail{
+	background-color: #355c7d;
+	color: #F0F0F0;
+}
+
+h3{
+	text-align: center;
+	color: #f67280 !important;
+}
+
+.btn-detail:hover{
+	background-color: transparent;
+	color: #355c7d;
+	border-color:#355c7d;
+	transition: 0.5s;
+}
+
+footer{
+	background-color: #355c7d !important;
+	color: white;
+}
+
+.card{
+	border-radius: 25px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://www.mickeyshannon.com/photos/medium/moraine-lake-sunrise-brilliance.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
